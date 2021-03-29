@@ -13,6 +13,8 @@ basic.forever(function () {
     basic.pause(1500)
     RingbitCar.freestyle(90, 30)
     basic.pause(1500)
+})input.onButtonPressed(Button.A, function () {
+    music.startMelody(music.builtInMelody(Melodies.Chase), MelodyOptions.Once)
 })
 	
 
